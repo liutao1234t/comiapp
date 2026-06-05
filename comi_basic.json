@@ -1,0 +1,210 @@
+{
+  "appCore": {
+    "appName": "VocaStage",
+    "theme": "anime_voice_scene",
+    "mainScene": "vertical_voice_feed",
+    "language": "en-US"
+  },
+  "uiTheme": {
+    "background": "neon_night",
+    "mainColor": "hot_pink",
+    "accentColor": "cyan",
+    "glowStyle": "anime_stage_light"
+  },
+  "heroVideo": {
+    "sceneId": "anime_stage_voice_001",
+    "coverName": "purple_city_singer",
+    "layout": "full_screen_vertical",
+    "posterMood": "concert_energy"
+  },
+  "statusOverlay": {
+    "timeText": "1:20",
+    "signalVisible": true,
+    "batteryVisible": true,
+    "topSafePadding": 18
+  },
+  "creatorInfo": {
+    "creatorId": "creator_oliver_001",
+    "handle": "@Oliver",
+    "avatarName": "avatar_oliver",
+    "postTime": "2h ago"
+  },
+  "sceneText": {
+    "title": "Anime - I'll protect you",
+    "lineCount": 1,
+    "textTone": "heroic_soft",
+    "fontWeight": "bold"
+  },
+  "tagSet": {
+    "items": [
+      "anime",
+      "voice",
+      "dubbing"
+    ],
+    "tagColor": "pink",
+    "maxCount": 3,
+    "style": "inline_hash"
+  },
+  "dubButton": {
+    "text": "Dub This Scene",
+    "icon": "microphone",
+    "shape": "rounded_capsule",
+    "glowEnabled": true
+  },
+  "sideActionBar": {
+    "position": "right_center",
+    "avatarButton": true,
+    "heartButton": true,
+    "fireButton": true,
+    "shareButton": true
+  },
+  "avatarAction": {
+    "avatarName": "user_face_avatar",
+    "plusMark": true,
+    "ringColor": "cyan",
+    "size": 54
+  },
+  "likeStats": {
+    "countText": "12.5k",
+    "icon": "heart",
+    "iconColor": "pink",
+    "animation": "soft_pop"
+  },
+  "fireStats": {
+    "countText": "880",
+    "icon": "flame",
+    "iconColor": "orange",
+    "metricName": "energy"
+  },
+  "shareAction": {
+    "text": "Share",
+    "icon": "arrow_curve",
+    "enabled": true,
+    "shareTitle": "Try this anime voice scene"
+  },
+  "voiceRecord": {
+    "maxSeconds": 20,
+    "countdownSeconds": 3,
+    "autoSaveDraft": true,
+    "startTone": "soft_beep"
+  },
+  "audioMix": {
+    "originalVolume": 0.45,
+    "voiceVolume": 0.9,
+    "backgroundMusic": true,
+    "syncRangeMs": 140
+  },
+  "voiceEffects": {
+    "presets": [
+      "natural",
+      "bright",
+      "dreamy",
+      "echo"
+    ],
+    "defaultPreset": "natural",
+    "strength": 0.5,
+    "sampleEnabled": true
+  },
+  "subtitleGuide": {
+    "enabled": true,
+    "highlightWords": true,
+    "lineColor": "white",
+    "activeColor": "pink"
+  },
+  "sceneFeed": {
+    "feedType": "vertical",
+    "autoPlay": true,
+    "nextLoadCount": 6,
+    "loopCurrent": true
+  },
+  "feedRules": {
+    "dailyCount": 20,
+    "animeWeight": 0.6,
+    "voiceWeight": 0.25,
+    "newSceneWeight": 0.15
+  },
+  "bottomNav": {
+    "active": "Home",
+    "items": [
+      "Home",
+      "Scenes",
+      "Record",
+      "Crown",
+      "Chat"
+    ],
+    "centerItem": "Record"
+  },
+  "recordCenter": {
+    "icon": "microphone",
+    "size": 72,
+    "background": "pink_circle",
+    "outerGlow": true
+  },
+  "sceneLibrary": {
+    "title": "Scenes",
+    "categories": [
+      "Anime",
+      "Fantasy",
+      "Romance",
+      "Action"
+    ],
+    "defaultCategory": "Anime",
+    "layout": "poster_grid"
+  },
+  "crownPage": {
+    "title": "Crown",
+    "rankType": "voice_energy",
+    "seasonName": "Neon Stage",
+    "showTopUsers": true
+  },
+  "chatPage": {
+    "title": "Chat",
+    "quickTexts": [
+      "Nice voice!",
+      "Try my scene",
+      "Great emotion"
+    ],
+    "sceneCardShare": true,
+    "voiceMessage": true
+  },
+  "userPage": {
+    "title": "Me",
+    "savedScenes": 18,
+    "myVoiceWorks": 9,
+    "likedScenes": 36
+  },
+  "creatorPanel": {
+    "showFollow": true,
+    "followerText": "99.9K",
+    "creatorLevel": "stage_star",
+    "creatorTag": "Anime Voice"
+  },
+  "visualEffects": {
+    "heartBurst": true,
+    "neonParticles": true,
+    "lyricGlow": true,
+    "buttonPulse": true
+  },
+  "storageState": {
+    "draftLimit": 30,
+    "savedResultLimit": 200,
+    "cacheDays": 14,
+    "mediaQuality": "standard"
+  },
+  "noticeCenter": {
+    "unreadCount": 2,
+    "newSceneAlert": true,
+    "voiceReplyAlert": true,
+    "quietHours": {
+      "enabled": true,
+      "start": "23:00",
+      "end": "08:00"
+    }
+  },
+  "sessionState": {
+    "lastOpenTab": "Home",
+    "lastSceneId": "anime_stage_voice_001",
+    "lastRecordSeconds": 0,
+    "sessionPlayCount": 4
+  }
+}
